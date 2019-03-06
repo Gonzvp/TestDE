@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head itemscope itemtype="http://schema.org/WebSite">
-	
-	<meta name="description" content="">
-	<title></title>
+    <head itemscope itemtype="http://schema.org/WebSite">
 
-	<meta property="og:title" content="">
-	<meta property="og:url" content="">
-	<meta property="og:description" content="">
-	<meta property="og:image" content="">
-	<meta property="og:type" content="">
+        <meta name="description" content="">
+        <title></title>
 
-	<meta property="fb:app_id" content="">
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:type" content="">
 
-	<meta name="twitter:domain" content="">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="">
-	<meta name="twitter:url" content="">
-	<meta name="twitter:description" content="">
-	<meta name="twitter:image" content="">
+        <meta property="fb:app_id" content="">
 
-	<script type="application/ld+json">
+        <meta name="twitter:domain" content="">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+
+        <script type="application/ld+json">
 		{
   			"@context": "http://schema.org",
   			"@graph":
   			[	
   				{
-       				"@type": "WebSite",
+       				"@type": "blog",
+                   "blogPost":
+                   {
+                    "@type": "blogPosting",
+                    "mainEntityOfPage":
+                    {
+                        "@type": "WebSite",
        				"name": "Servicios Legales de Propiedad Intelectual e Industrial SELPI - México",
        				"alternateName":"SELPI",
        				"url":"https://www.ipservices.com.mx/",
@@ -44,9 +50,43 @@
        								"http://www.instagram.com/"
        							]
        					}
+                    }
+                    "headline": "14 Ways Json Can Improve Your SEO",
+                    "alternativeHeadline": "and the women who love them",
+                    "image": "http://example.com/image.jpg",
+                    "award": "Best article ever written",
+                    "editor": "John Doe", 
+                    "genre": "search engine optimization",  
+                    "keywords": "seo sales b2b", 
+                    "wordcount": "1120",
+                    "publisher": {
+
+       						"@type": "organization",
+                            "logo":{
+                            "@type":"ImageObject",
+                         "url":"https://www.ipservices.com.mx/images/optimized/selpi3_p.webp"
+                            },
+       						"name":"SELPI", 
+       						"sameAs": 
+       							[
+       								"http://www.facebook.com/",
+       								"http://www.instagram.com/"
+       							]
+                    },
+                    "url": "http://www.example.com",
+                    "datePublished": "2015-09-20",
+                    "dateCreated": "2015-09-20",
+                    "dateModified": "2015-09-20",
+                    "description": "We love to do stuff to help people and stuff",
+                    "articleBody": "You can paste your entire post in here, and yes it can get really really long.",
+                    "author": {
+                                "@type": "Person",
+                                "name": "Steve"
+                                }
+                   }
     			},
-    			{
-       				"@type": "LegalService",
+                {
+                "@type": "LegalService",
        				"name": "SELPI",
        				"legalName":"Asesoria Legal en Propiedad Intelectual",
        				"image":"https://www.ipservices.com.mx/images/optimized/selpi3_p.webp",
@@ -70,13 +110,14 @@
       				"paymentAccepted":"Efectivo, Tarjeta de Credito o Debito",
                     "telephone": "5536511421",
       				"email": "info@ipservices.com.mx"
-    			}
+
+                }
   			]
 		}
-	</script>
+        </script>
 
-</head>
-<body>
+    </head>
+    <body>
 
-</body>
+    </body>
 </html>
