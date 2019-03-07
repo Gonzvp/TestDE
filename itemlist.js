@@ -19,7 +19,8 @@
         "model": "6lb/pi3",
         "height": "1.5m",
         "width": "123.14cm"
-    }},
+    }
+    },
     {
     "@type": "ListItem",
   "position": 2,
